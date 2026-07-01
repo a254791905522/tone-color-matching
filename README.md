@@ -7,10 +7,10 @@ Bundle ID: com.rosewood.tonecolormatching.game
 Device support: iPhone only
 
 Gameplay fact card:
-- Core action: Mix hue, saturation, and lightness using HSL sliders to match the target flag color from 50 countries.
-- Main puzzle: Recreate the exact shade of a national flag color from memory, with score based on DeltaE color difference.
+- Core action: Mix hue, saturation, and lightness using HSL sliders to match a target color across 50 levels.
+- Main puzzle: Recreate the target color from memory, with score based on DeltaE color difference.
 - Color system: Hue (0-360 degrees), Saturation (0-100%), Lightness (0-100%), DeltaE (CIE color difference).
-- Progression: 50 levels across 5 world regions (Asia, Europe, Americas, Oceania, Africa), sequential unlock.
+- Progression: 50 levels organized into 5 themed sets, sequential unlock.
 - Tutorial: Levels 1-5 show target preview, levels 1-10 show memory hints, levels 11+ are pure color memory.
 - Difficulty: 1-5, scaling every 10 levels.
 - Time limit: 30 seconds per level.

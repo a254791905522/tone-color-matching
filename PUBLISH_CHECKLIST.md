@@ -28,7 +28,7 @@
 ## 4. Launch Screen
 - [x] LaunchScreen.storyboard root tag is `<document>` (lowercase)
 - [x] No references to non-existent images
-- [x] Shows game title "Tone Color Matching" and subtitle "Match the World's Colors"
+- [x] Shows game title "Tone Color Matching" and subtitle "Train Your Color Eye"
 
 ## 5. Debug UI
 - [x] showsFPS: NO (not set)
@@ -68,22 +68,22 @@
 - [x] .gitignore
 
 ## 10. Archive Build
-- [ ] xcodebuild archive with CODE_SIGNING_ALLOWED=NO - ARCHIVE SUCCEEDED
-- [ ] Verify .app contains: Assets.car, AppIcon*.png, LaunchScreen.storyboardc
-- [ ] Verify CFBundleIdentifier = com.rosewood.tonecolormatching.game
-- [ ] Verify CFBundleDisplayName = Tone Color Matching
-- [ ] Verify UIDeviceFamily = 1
+- [x] xcodebuild archive with CODE_SIGNING_ALLOWED=NO - ARCHIVE SUCCEEDED
+- [x] Verify .app contains: Assets.car, AppIcon*.png, LaunchScreen.storyboardc
+- [x] Verify CFBundleIdentifier = com.rosewood.tonecolormatching.game
+- [x] Verify CFBundleDisplayName = Tone Color Matching
+- [x] Verify UIDeviceFamily = 1
 
 ## 11. GitHub/Vercel Deployment
-- [ ] Push publish/ToneColorMatching/ to GitHub (gh account: a254791905522, repo: tone-color-matching)
-- [ ] Use proxy 127.0.0.1:7897
-- [ ] Vercel deployed: https://tone-color-matching.vercel.app
-- [ ] curl verify index.html live (HTTP 200)
-- [ ] curl verify /privacy.html live (HTTP 200, no 308 redirect)
+- [x] Push publish/ToneColorMatching/ to GitHub (gh account: a254791905522, repo: tone-color-matching)
+- [x] Use proxy 127.0.0.1:7897
+- [x] Vercel deployed: https://tone-color-matching.vercel.app
+- [x] curl verify index.html live (HTTP 200)
+- [x] curl verify /privacy.html live (HTTP 200, no 308 redirect)
 
 ## 12. App Store Connect
 - [ ] App name: Tone Color Matching
-- [ ] Subtitle: Match the World's Colors
+- [ ] Subtitle: Train Your Color Eye
 - [ ] Bundle ID: com.rosewood.tonecolormatching.game
 - [ ] SKU: tonecolormatching-ios-001
 - [ ] Support URL: https://tone-color-matching.vercel.app
@@ -96,11 +96,11 @@
 - [ ] Email: croitorzamkov@gmail.com
 
 ## 13. Validation
-- [ ] validate_appstore_review_text.py: ALL CHECKS PASSED
+- [x] validate_appstore_review_text.py: ALL CHECKS PASSED
 
 ## 14. Notes
 - Sound/Music/Haptics toggles exist in Settings (BHQSaveManager has soundEnabled, musicEnabled, hapticsEnabled)
-- 50 flag color levels across 5 regions (Asia, Europe, Americas, Oceania, Africa)
+- 50 color matching levels across 5 themed sets
 - HSL color model: Hue (0-360), Saturation (0-100%), Lightness (0-100%)
 - Scoring via DeltaE (CIE color difference)
 - 30-second time limit per level

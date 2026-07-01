@@ -1,1 +1,1 @@
-color,matching,tone,hue,flag,world,puzzle,offline,simulation,shade,tint,match
+color,matching,tone,hue,world,puzzle,offline,simulation,shade,tint,match
